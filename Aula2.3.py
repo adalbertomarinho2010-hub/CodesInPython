@@ -1,0 +1,10 @@
+Name = str (input ("Type your Name: "))
+Age = int (input ('Type your Age: '))
+Gender = str (input ("Type your Gender: "))
+Note1 = float (input ("type your first Note: "))
+Note2 = float (input ("Type your second Note: "))
+AverageNote = Note1 + Note2 / 2
+print ("Name: ",Name)
+print ("Age: ",Age)
+print ("Gender: ",Gender)
+print ("Average Note: %.2f" % (AverageNote))
